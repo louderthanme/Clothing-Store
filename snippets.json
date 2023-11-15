@@ -1,0 +1,8 @@
+// const clearCartItem = (cartItems, cartItemToClear) => {
+//     const existingCartItem = cartItems.find(
+//         (cartItem) => cartItem.id === cartItemToClear.id
+//     );
+//     if (existingCartItem) {
+//         return cartItems.filter((cartItem) => cartItem.id !== cartItemToClear.id);
+//     }
+// };

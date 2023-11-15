@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 20px 50px;
+  font-family: 'Saira Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box; //the height of the element doesn't change with the height of the padding or border. the asterisk targets everything
+}
+
+//react app transforms scss to css so the browser can read it
