@@ -30,7 +30,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase app
-const firebaseApp = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 
 // Google authentication provider
 const googleProvider = new GoogleAuthProvider();
